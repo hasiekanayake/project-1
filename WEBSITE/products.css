@@ -1,0 +1,79 @@
+/*DSI products*/
+
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Nunito&family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+}
+body{
+	background-image: url(Web-Page-Background-Color.jpg);
+	background-size:cover;
+	background-position: center;
+	background-repeat: no-repeat;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(11, 14, 14);
+}
+#head h1{
+	background-color:#001d1d;
+	margin: 100px 0px 0px 0px;
+	width: 100%;
+	color: antiquewhite;
+}
+h2{
+    text-align: center;
+    margin-bottom: 80px;
+    font-size: 64px;
+}
+.all-products{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.item{
+    overflow: hidden;
+    background: #fff;
+    color:#21201e ;
+    text-align: center;
+    width: 240px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 19px;
+    margin:32px ;
+}
+.item:hover img{
+    scale: 1.1;
+}
+.item:hover{
+    box-shadow: 5px 15px 25px #070707;
+}
+.item img{
+    height: 200px;
+    margin: 16px;
+    transition: all 0.3s;
+}
+.item a:link, .item a:visited{
+    color: #ececec;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #0c0c0c;
+    padding: 16px;
+    border-radius: 16px;
+    margin-top: 16px;
+    transition: all 0.2s;
+}
+.item a:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
